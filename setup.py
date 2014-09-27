@@ -29,7 +29,6 @@ The dateutil module provides powerful extensions to the
 datetime module available in the Python standard library.
 """,
       packages=["dateutil", "dateutil.zoneinfo", "dateutil.tz"],
-      package_data={"dateutil.zoneinfo": ["dateutil-zoneinfo.tar.gz"]},
       zip_safe=True,
       requires=["six"],
       install_requires=["six >=1.5"],  # XXX fix when packaging is sane again

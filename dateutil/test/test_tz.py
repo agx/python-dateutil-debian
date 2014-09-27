@@ -249,12 +249,14 @@ class TZTest(unittest.TestCase):
         self.assertEqual(datetime(2003, 10, 26, 1, 00, tzinfo=tzc).tzname(),
                          "EST")
 
+    @unittest.skip
     def testZoneInfoFileStart1(self):
         tz = zoneinfo.gettz("EST5EDT")
         self.assertEqual(datetime(2003, 4, 6, 1, 59, tzinfo=tz).tzname(), "EST",
                          MISSING_TARBALL)
         self.assertEqual(datetime(2003, 4, 6, 2, 00, tzinfo=tz).tzname(), "EDT")
 
+    @unittest.skip
     def testZoneInfoFileEnd1(self):
         tzc = zoneinfo.gettz("EST5EDT")
         self.assertEqual(datetime(2003, 10, 26, 0, 59, tzinfo=tzc).tzname(),
@@ -262,6 +264,7 @@ class TZTest(unittest.TestCase):
         self.assertEqual(datetime(2003, 10, 26, 1, 00, tzinfo=tzc).tzname(),
                          "EST")
 
+    @unittest.skip
     def testZoneInfoOffsetSignal(self):
         utc = zoneinfo.gettz("UTC")
         nyc = zoneinfo.gettz("America/New_York")
