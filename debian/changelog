@@ -1,3 +1,10 @@
+python-dateutil (2.2-3) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Update watch file to use pypi.debian.net
+
+ -- Diane Trout <diane@ghic.org>  Thu, 12 Nov 2015 14:26:23 -0800
+
 python-dateutil (2.2-2) unstable; urgency=medium
 
   * Upload to unstable
