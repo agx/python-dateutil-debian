@@ -2,6 +2,7 @@ python-dateutil (2.2-3) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * Update watch file to use pypi.debian.net
+  * Add Paul Ganssle's pgp key.
 
  -- Diane Trout <diane@ghic.org>  Thu, 12 Nov 2015 14:26:23 -0800
 
