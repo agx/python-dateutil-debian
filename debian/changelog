@@ -7,6 +7,7 @@ python-dateutil (2.4.2-1) UNRELEASED; urgency=medium
   * Remove Use-C-locale-when-calling-date.patch file being modified was
     removed.
   * Refresh Remove_Zoneinfo_Tarball.patch
+  * Let pybuild discover new test files.
 
  -- Diane Trout <diane@ghic.org>  Thu, 12 Nov 2015 14:35:00 -0800
 
