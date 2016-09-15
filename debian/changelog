@@ -1,3 +1,9 @@
+python-dateutil (2.5.3-1) unstable; urgency=medium
+
+  * [771b73d] New upstream version 2.5.3
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 15 Sep 2016 22:28:53 +0200
+
 python-dateutil (2.4.2-1) unstable; urgency=medium
 
   [ Guido Günther ]
